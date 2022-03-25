@@ -10,11 +10,6 @@ def home():
     return render_template('home.html')
 
 
-@app.route("/cases")
-def cases():
-    return render_template('cases.html')
-
-
 
 
 if __name__ == '__main__':
